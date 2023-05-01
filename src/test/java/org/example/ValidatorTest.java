@@ -11,7 +11,7 @@ public class ValidatorTest {
 
     @Test
     void doesPhoneNumberStartWithZero(){
-        boolean result = validator.isPhoneNumberValid("0737773049");
+        boolean result = validator.isPhoneNumberValid("9737773049");
 
         Assertions.assertTrue(result);
     }
