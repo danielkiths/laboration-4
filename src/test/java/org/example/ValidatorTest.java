@@ -91,4 +91,8 @@ public class ValidatorTest {
 
         Assertions.assertTrue(result);
     }
+    @Test
+    void failingTest(){
+    Assertions.assertEquals(1,2)
+    }
 }
